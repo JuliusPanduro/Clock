@@ -4,7 +4,7 @@ app.use(express.static("public"));
 
 
 
-app.get("/clock",(req,res)=>{
+app.get("/",(req,res)=>{
     res.sendFile(__dirname + "/public/clock.html");
 
 });
